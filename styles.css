@@ -1,0 +1,133 @@
+/* Estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos do body e fonte */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    background: url('https://i.ytimg.com/vi/zUbTSsMpFcM/maxresdefault.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #682424;
+    padding: 30px;
+    font-size: 16px;
+}
+
+/* Estilizando o cabeçalho e o menu de navegação */
+header {
+    background-color: #7c0468bb;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    
+    
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 5px;
+    
+}
+
+/* Estilizando as seções */
+section {
+    margin: 20px 0;
+}
+
+h1, h2, h3 {
+    color: white;
+    background-color: #7c0468;
+    padding: 10;
+    border: 1px solid #7c0468;
+    border-radius: 40px;
+    text-align: center;
+}
+ul li a {
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    background-color: #7c04682f;
+    color: white;
+    border-radius: 10px;
+    
+    
+}
+
+p {
+    color: white;
+    margin: 10px 0;
+    background-color: #7c046865;
+    border-radius: 5px;
+}
+
+/* Estilos do formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    background-color: rgba(122, 7, 88, 0.219);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(112, 3, 85, 0.1);
+    color: white;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color:  #7c046865;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilos do rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #7c0468a1;
+    color: white;
+    border-radius: 10px;
+
+}
